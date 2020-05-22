@@ -5,7 +5,7 @@ project(my_project)
 # these instructions search the directory tree when cmake is
 # invoked and put all files that match the pattern in the variables 
 # `sources` and `include`
-file(GLOB_RECURSE sources      src/*.cpp src/*.h)
+file(GLOB_RECURSE sources      src/*.cpp src/*.h src/*.hpp)
 # use globing to find files automatically
 
 set(EXECUTABLE_OUTPUT_PATH ./bin)
